@@ -4,7 +4,7 @@ var gulp = require('gulp'),
     reactify = require('reactify'),
     source = require('vinyl-source-stream'),
 
-    jshint = require('gulp-jshint'),
+    jshint = require('gulp-jshint');
 
 /*----- Scripts ------*/
 gulp.task('reloadjs', function() {
